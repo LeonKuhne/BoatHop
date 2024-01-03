@@ -1,0 +1,13 @@
+name: BoatHop
+version: 0.1
+main: dev.leonk.BoatHop
+
+description: Hop over obstacles on your boat!
+api-version: 1.20
+author: Leon Kuehne
+website: leonk.dev
+commands:
+  boathop: 
+    description: "Hop your boat!"
+    usage: /<command> <jump|boost> [strength]
+    permission: boathop.cofig
