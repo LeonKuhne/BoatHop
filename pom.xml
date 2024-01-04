@@ -49,13 +49,23 @@
       </plugin>
     </plugins>
     <sourceDirectory>${project.basedir}/src</sourceDirectory>
+
     <resources>
+
       <resource>
         <directory>${project.basedir}/src</directory>
         <includes>
           <include>plugin.yml</include>
         </includes>
       </resource>
+
+      <resource>
+        <directory>${project.basedir}/src</directory>
+        <includes>
+          <include>config.yml</include>
+        </includes>
+      </resource>
+
     </resources>
   </build>
 </project>

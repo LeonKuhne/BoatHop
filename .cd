@@ -1,10 +1,11 @@
 #!/bin/sh
 title -n BoatHop
-debug "minecraft plugin that leaps your boat across hurdles." | indent " | "
+debug "Leap your boat across hurdles - Minecraft Plugin" | indent " | "
 
 help .cd | indent
 
 function build() {
+  rm BoatHop.jar
   mvn clean compile assembly:single
   jar=target/boathop-1.0-SNAPSHOT-jar-with-dependencies.jar
   mv $jar BoatHop.jar

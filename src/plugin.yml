@@ -8,6 +8,6 @@ author: Leon Kuehne
 website: leonk.dev
 commands:
   boathop: 
-    description: "Hop your boat!"
+    description: "Hurdle your boat!"
     usage: /<command> <jump|boost> [strength]
-    permission: boathop.cofig
+    permission: boathop.config
